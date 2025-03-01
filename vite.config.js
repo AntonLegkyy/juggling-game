@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     plugins: [react()],
-    base: '/juggling-game/', // Относительный путь для GitHub Pages
+    base: '/juggling-game/',
     build: {
+        minify: true,
         rollupOptions: {
             input: {
                 main: 'index.html',
