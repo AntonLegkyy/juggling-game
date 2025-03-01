@@ -1,6 +1,7 @@
 {
-  "name": "react-three-demo",
+  "name": "juggling-demo",
   "version": "1.0.0",
+  "homepage": "https://spillesammen.gitlab.io/juggling-demo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
