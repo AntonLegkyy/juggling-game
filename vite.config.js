@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     plugins: [react()],
-    base: '/juggling-game/', // Относительный путь, соответствующий имени репозитория
+    base: '/juggling-game/', // Относительный путь для GitHub Pages
     build: {
         rollupOptions: {
             input: {
