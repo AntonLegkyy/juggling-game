@@ -7,7 +7,7 @@ function Rocket({ onComplete }) {
     const rocketRef = useRef();
     const clock = useRef(new THREE.Clock());
     const { camera } = useThree();
-    const gltf = useLoader(GLTFLoader, '/models/rocket.glb');
+    const gltf = useLoader(GLTFLoader, 'models/rocket.glb');
     const startPosition = useRef(new THREE.Vector3());
     const endPosition = useRef(new THREE.Vector3());
 

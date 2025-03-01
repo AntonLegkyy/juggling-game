@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     plugins: [react()],
-    base: './',
+    base: '/juggling-game/', // Относительный путь, соответствующий имени репозитория
     build: {
         rollupOptions: {
             input: {
@@ -12,9 +12,9 @@ export default defineConfig({
             output: {
                 assetFileNames: (assetInfo) => {
                     if (assetInfo.name.endsWith('.glb')) {
-                        return 'models/[name][extname]'; // Сохраняет имена .glb файлов
+                        return 'models/[name][extname]';
                     }
-                    return 'assets/[name]-[hash][extname]'; // Хэши для JS/CSS
+                    return 'assets/[name]-[hash][extname]';
                 },
             },
         },

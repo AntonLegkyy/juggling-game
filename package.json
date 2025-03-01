@@ -1,7 +1,7 @@
 {
   "name": "juggling-demo",
   "version": "1.0.0",
-  "homepage": "https://spillesammen.gitlab.io/three.js-sandbox",
+  "homepage": "https://antonlegkyy.github.io/juggling-game",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
